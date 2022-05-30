@@ -65,6 +65,12 @@ const ExpenseForm = () => {
         setEnteredAmount('');
         setEnteredDate('');
     }
+    
+    let myFriendFirstName = "Uday";
+
+    myFriendFirstName = 30;
+
+    console.log(myFriendFirstName);
 
     return (
         <form onSubmit={submitHandler}>
